@@ -10,16 +10,17 @@
     margin: 0 auto;   
     display: flex;
     justify-content: center; 
-    
-      
-                                    
+                                 
+}
+.row{
+    max-width: 400px;
+    width: 100%;
+
 }
 .container-header{
     
 }
 .row-menu{
-    max-width: 400px;
-    width: 100%;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -37,12 +38,11 @@
     
 }
 .row-blu{
-    max-width: 400px;
-    width: 100%;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-                                    height: 1500px;
+    gap: 10px;
+                                    height: 1000px;
                                     background-color: aquamarine;
 }
 
@@ -57,8 +57,6 @@
     
 }
 .row-viola{
-    max-width: 400px;
-    width: 100%;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -74,8 +72,6 @@
 }
 /* SECTION TESTIMONIALS*/
 .row-testimonials{
-    max-width: 400px;
-    width: 100%;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -107,8 +103,6 @@
 
 /* SECTION BENEFITS*/
 .row-benefits{
-    max-width: 400px;
-    width: 100%;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -126,8 +120,6 @@
 }
 /* SECTION ABOUT US*/
 .row-aboutus{
-    max-width: 400px;
-    width: 100%;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -137,7 +129,13 @@
 .column-aboutus{
     width: 100%;
                                     height: 400px;
+                                    
+}
+.column-aboutus-testo{
                                     background-color: burlywood;
+}
+.column-aboutus-img{
+                                    background-color: chocolate;
 }
 /* SECTION GET STARTED*/
 .row-started{
@@ -159,4 +157,64 @@
 .column-footer{
     width: 100%;
 }
+
+/* RESPONSIVE */
+/* TABLET */
+@media screen and (min-width: 768px){
+    /* SECTION BLU */
+    .row{
+        max-width: 730px;
+        width: 100%;
+
+    }
+    .column-blu-grande{
+        width: calc(100% / 3 * 2 - 10px);
+                                    background-color: rgb(104, 148, 133);
+                                    height: 200px;
+
+    }
+    .column-blu{
+        width: calc(100% / 3 - 10px);
+    }
+    /* SECTION VIOLA */
+
+    /* SECTION TESTIMONIALS*/
+    
+    .col-img{
+        width: 30%;
+    }
+    .col-testimonianza{
+        width: 70%;
+    }
+    /* SECTION BENEFITS*/
+    .row-benefits{
+        gap: 10px;
+                                    height: 500px;
+    }
+    .column-benefits{
+        width: calc(100% / 2 - 10px);
+
+    }
+
+    /* SECTION ABOUT US*/
+    .row-aboutus{
+                                    height: 300px;
+    }
+    .column-aboutus-testo{
+        width: 60%;
+
+    }
+    .column-aboutus-img{
+        width: 40%;
+
+    }
+
+    /* SECTION GET STARTED*/
+
+}
+/* DESKTOP */
+@media screen and (min-width: 1200px){
+    
+}
+
 
