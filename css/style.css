@@ -70,6 +70,8 @@
                                     background-color: brown;
 
 }
+
+
 /* SECTION TESTIMONIALS*/
 .row-testimonials{
     display: flex;
@@ -161,12 +163,13 @@
 /* RESPONSIVE */
 /* TABLET */
 @media screen and (min-width: 768px){
-    /* SECTION BLU */
+    /* HEADER */
     .row{
         max-width: 730px;
         width: 100%;
-
+        
     }
+    /* SECTION BLU */
     .column-blu-grande{
         width: calc(100% / 3 * 2 - 10px);
                                     background-color: rgb(104, 148, 133);
@@ -210,10 +213,44 @@
     }
 
     /* SECTION GET STARTED*/
+    /* FOOTER */
 
 }
 /* DESKTOP */
 @media screen and (min-width: 1200px){
+    /* HEADER */
+    .row{
+        max-width: 991px;
+        width: 100%;
+        
+    }
+
+
+    /* SECTION BLU */
+    /* SECTION VIOLA */
+    .viola-sinistra{
+        width: 50%;
+                                        background-color: rgb(32, 52, 52);
+    }
+    .viola-destra{
+        width: 50%;
+                                        background-color: rgb(34, 146, 146);
+    }
+
+    /* SECTION TESTIMONIALS*/
+
+    /* SECTION BENEFITS */
+    .row-benefits{
+        gap: 10px;
+                                    height: 200px;
+    }
+    .column-benefits{
+        width: calc(100% / 3 - 10px);
+
+    }
+    /* SECTION ABOUT US*/
+    /* SECTION GET STARTED*/
+    /* FOOTER */
     
 }
 
