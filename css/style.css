@@ -3,6 +3,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
 
 /* HEADER */
 .container{
@@ -11,6 +14,9 @@
     display: flex;
     justify-content: center; 
                                  
+}
+.bgcolor-blu{
+    background-color: rgba(0,132,253,255) ;
 }
 .row{
     max-width: 400px;
@@ -24,33 +30,69 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-                                    height: 40px;
+                                    
                                     background-color: rgba(0,132,253,255);
 }
 .column-menu{
-    
     width: 20%;
-    background-color: white;
-                                    height: 20px;
+    padding: 10px 0px;
+    
+                                    
+}
+.img-logo{
+    width: 80%;
+}
+.hamburger-menu{
+    text-align: end;
+
 }
 /* SECTION BLU */
 .bgcolor-bianco{
-    
+    background-color: white;
 }
 .row-blu{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     gap: 10px;
-                                    height: 1000px;
-                                    background-color: aquamarine;
+    background-color: white;
+   
+                                    
+                                   
 }
 
 .column-blu{
     width: 100%;
-    
-                                    height: 200px;
-                                    background-color: antiquewhite;
+    background-color: rgba(181,221,255,255);
+    padding: 10px 40px;
+    margin: 30px 0px;
+    border: 1px solid rgba(181,221,255,255);
+    border-radius: 20px;
+
+                                    
+
+}                                
+.titolo-blu{
+    color: rgba(0,132,253,255);
+    padding: 20px 0px;
+
+}
+.paragrafo-blu{
+    padding: 30px 0px;
+    line-height: 30px;
+    color: rgba(92,112,130,255);
+}
+.button-appstore{
+    background-color: rgba(0,132,253,255);
+    color: white;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 50px;
+    font-size: 20px;
+}
+.img-phone{
+    width: 100%;
+    padding-top: 30px;
 }
 /* SECTION VIOLA*/
 .bgcolor-viola{
