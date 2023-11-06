@@ -3,3 +3,160 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+/* HEADER */
+.container{
+    width: 100%;
+    margin: 0 auto;   
+    display: flex;
+    justify-content: center; 
+    
+      
+                                    
+}
+.container-header{
+    
+}
+.row-menu{
+    max-width: 400px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+                                    height: 40px;
+                                    background-color: rgba(0,132,253,255);
+}
+.column-menu{
+    
+    width: 20%;
+    background-color: white;
+                                    height: 20px;
+}
+/* SECTION BLU */
+.bgcolor-bianco{
+    
+}
+.row-blu{
+    max-width: 400px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+                                    height: 1500px;
+                                    background-color: aquamarine;
+}
+
+.column-blu{
+    width: 100%;
+    
+                                    height: 200px;
+                                    background-color: antiquewhite;
+}
+/* SECTION VIOLA*/
+.bgcolor-viola{
+    
+}
+.row-viola{
+    max-width: 400px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+                                    height: 1000px;
+                                    background-color: blue;
+}
+.column-viola{
+    width: 100%;
+                                    height: 400px;
+                                    background-color: brown;
+
+}
+/* SECTION TESTIMONIALS*/
+.row-testimonials{
+    max-width: 400px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+                                    height: 1500px;
+                                    background-color: crimson;
+}
+.column-testimonials{
+    width: 100%;
+                                    height: 400px;
+}
+.row-name{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+                                    height: 400px;
+}
+.col-img, .col-testimonianze{
+    width: 100%; 
+                                    height: 200px;
+                                    background-color: cyan;
+}
+.col-testimonianza{
+    width: 100%;
+                                    height: 200px;
+                                    background-color: green;
+}
+
+
+/* SECTION BENEFITS*/
+.row-benefits{
+    max-width: 400px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+                                    height: 2000px;
+                                    background-color: darkslategrey;
+}
+.titolo-benefits{
+
+}
+
+.column-benefits{
+    width: 100%;
+                                    height: 100px;
+                                    background-color: darkseagreen;
+}
+/* SECTION ABOUT US*/
+.row-aboutus{
+    max-width: 400px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+                                    height: 1000px;
+                                    background-color: dodgerblue;
+}
+.column-aboutus{
+    width: 100%;
+                                    height: 400px;
+                                    background-color: burlywood;
+}
+/* SECTION GET STARTED*/
+.row-started{
+    max-width: 400px;
+    width: 100%;
+                                    height: 300px;
+                                    background-color: rgb(102, 6, 6);
+}
+.column-strated{
+    width: 100%;
+}
+/* FOOTER */
+.row-footer{
+    max-width: 400px;
+    width: 100%;
+                                    height: 300px;
+                                    background-color: black;
+}
+.column-footer{
+    width: 100%;
+}
+
