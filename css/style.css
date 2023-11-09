@@ -217,11 +217,12 @@ body{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-                                    height: 400px;
+                                    
 }
 .col-img, .col-testimonianze{
     width: 100%; 
-                                    height: 200px;
+    
+                                    
                                     
 }
 .col-img{
@@ -231,6 +232,7 @@ body{
     height: 200px;
     overflow: hidden;
     border-radius: 50%;
+    top: 20px 
 }
 .img-testimonial{
     
@@ -238,8 +240,15 @@ body{
     margin-left: -50px;
 }
 .col-testimonianza{
+    text-align: center;
     width: 100%;
+    color: white;
+    padding: 0px 20px;
+    line-height: 25px;
                                        
+}
+.nomi{
+    padding-top: 20px;
 }
 .virgolette {
     font-size: 80px;
@@ -325,13 +334,19 @@ body{
     /* SECTION VIOLA */
 
     /* SECTION TESTIMONIALS*/
-    
+    .row-name{
+        padding: 20px 0px;
+    }
     .col-img{
-        width: 30%;
+        top: 0;
     }
     .col-testimonianza{
         width: 70%;
+        text-align: start;
+        padding-top: 30px;
     }
+
+
     /* SECTION BENEFITS*/
     .row-benefits{
         gap: 10px;
@@ -412,6 +427,10 @@ body{
 
 
     /* SECTION TESTIMONIALS*/
+    .col-testimonianza{
+        
+        padding-top: 60px;
+    }
 
     /* SECTION BENEFITS */
     .row-benefits{
